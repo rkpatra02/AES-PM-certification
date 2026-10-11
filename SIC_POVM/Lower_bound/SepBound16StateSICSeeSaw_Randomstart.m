@@ -117,7 +117,7 @@ for Count=1:Nstarts
             vstepS = value(stepS);
             
         end
-        if S>vstepS
+        if S<vstepS
             S=vstepS;
             RhoOpt=Rho;
             MOpt=M;
